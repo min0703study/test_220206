@@ -13,14 +13,8 @@ HRESULT MainGame::init(void)
 	_vTextSpace = 20;
 	_vTextIndex = 0;
 
-	for (int i = 0; i < 20; i++) {
-		_vTextOut.push_back("민채영 - 첫번째 메세지");
-		_vTextOut.push_back("민채영 - 두번째 메세지");
-		_vTextOut.push_back("박정호 - 심심해여");
-		_vTextOut.push_back("박정호 - 잘래요");
-		_vTextOut.push_back("임지혁 - 수업 종료 8분 전");
-	}
-	
+	_vTextOut.push_back("민채영 - 안녕하세요! 팀포폴 열심히 같이 해봐요!");
+
 	return S_OK;
 }
 
@@ -43,7 +37,7 @@ void MainGame::render(void)
 	IMAGEMANAGER->findImage("background_default")->render(getMemDc());
 
 	for (_viTextOut = _vTextOut.begin(), _vTextIndex = 0; _viTextOut != _vTextOut.end(); _viTextOut++, _vTextIndex++) {
-		if (_vTextIndex < 20) {
+		if (_vTextIndex < 30) {
 			TextOut(getMemDc(), _vTextIndex * 50 , 100 + (_vTextIndex * _vTextSpace), *_viTextOut, strlen(*_viTextOut));
 		}
 		else {
