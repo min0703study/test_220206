@@ -32,6 +32,9 @@ HRESULT MainGame::init(void)
 	_vTextOut.push_back("임지혁 - 팀 포폴은 꼭 계획만큼 완성했으면 좋겠습니다");
 	_vTextOut.push_back("박정호 - 그래도 생각보다 쉽게 리소스를 구할 수 있던게");
 	_vTextOut.push_back("박정호 - 무엇보다도 다행이라고 생각하네여");
+	_vTextOut.push_back("김현석 - 이거 솔직히 유니티 엔진인줄 몰랐는데");
+	_vTextOut.push_back("김현석 - 유니티 엔진이라 다행입니다");
+	_vTextOut.push_back("김현석 - 자체 엔진이었으면 어찌했을지 참 어질어질하네요");
 
 	return S_OK;
 }
