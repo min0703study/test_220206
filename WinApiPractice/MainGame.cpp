@@ -17,6 +17,7 @@ HRESULT MainGame::init(void)
 	_vTextOut.push_back("임지혁 - 잘 부탁드립니다 ~");
 	_vTextOut.push_back("박정호 - 2주간 열심히할게요 ~");
 	_vTextOut.push_back("김현석 - 2주간 팀포폴 열심히 해봅시다!");
+	_vTextOut.push_back("민채영 - untile we die 게임 기대되네요!");
 
 	return S_OK;
 }
