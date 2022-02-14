@@ -38,6 +38,9 @@ HRESULT MainGame::init(void)
 	_vTextOut.push_back("민채영 - 맞아요ㅋㅋ 리소스 없었으면 다른 게임 했을꺼 같아요");
 	_vTextOut.push_back("민채영 - 리소스 여는것도 정호랑 팀원분들이 능력자들이셔서 다행이네요bb");
 	_vTextOut.push_back("민채영 - 리소스를 이제 소스에 적용해봐야겠죠ㅠ");
+	_vTextOut.push_back("임지혁 - 이미지 작업이 제일 싫어요....");
+	_vTextOut.push_back("임지혁 - 얼른 코드 작업 들어갔으면 좋겠네요~");
+	_vTextOut.push_back("임지혁 - 우리팀 모두 2주간 열심히 해봐요!");
 
 	return S_OK;
 }
