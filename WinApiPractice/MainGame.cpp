@@ -18,6 +18,7 @@ HRESULT MainGame::init(void)
 		_vTextOut.push_back("민채영 - 두번째 메세지");
 		_vTextOut.push_back("박정호 - 심심해여");
 		_vTextOut.push_back("박정호 - 잘래요");
+		_vTextOut.push_back("임지혁 - 수업 종료 8분 전");
 	}
 	
 	return S_OK;
