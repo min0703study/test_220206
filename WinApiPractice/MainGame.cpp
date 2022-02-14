@@ -35,6 +35,9 @@ HRESULT MainGame::init(void)
 	_vTextOut.push_back("김현석 - 이거 솔직히 유니티 엔진인줄 몰랐는데");
 	_vTextOut.push_back("김현석 - 유니티 엔진이라 다행입니다");
 	_vTextOut.push_back("김현석 - 자체 엔진이었으면 어찌했을지 참 어질어질하네요");
+	_vTextOut.push_back("민채영 - 맞아요ㅋㅋ 리소스 없었으면 다른 게임 했을꺼 같아요");
+	_vTextOut.push_back("민채영 - 리소스 여는것도 정호랑 팀원분들이 능력자들이셔서 다행이네요bb");
+	_vTextOut.push_back("민채영 - 리소스를 이제 소스에 적용해봐야겠죠ㅠ");
 
 	return S_OK;
 }
