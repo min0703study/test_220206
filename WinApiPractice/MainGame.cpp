@@ -14,6 +14,7 @@ HRESULT MainGame::init(void)
 	_vTextIndex = 0;
 
 	_vTextOut.push_back("민채영 - 안녕하세요! 팀포폴 열심히 같이 해봐요!");
+	_vTextOut.push_back("임지혁 - 잘 부탁드립니다 ~");
 
 	return S_OK;
 }
