@@ -22,6 +22,9 @@ HRESULT MainGame::init(void)
 	_vTextOut.push_back("박정호 - 앞으로의 계획에 대해서");
 	_vTextOut.push_back("박정호 - 상의를 좀 해보고");
 	_vTextOut.push_back("박정호 - 요번주안에 결정되면 좋겟내여");
+	_vTextOut.push_back("김현석 - 코드는 신이고 DX는 무적이다!");
+	_vTextOut.push_back("김현석 - untile we die는 갓겜입니다.");
+	_vTextOut.push_back("김현석 - 프레임 이미지 그만쓰고 싶어요....");
 
 	return S_OK;
 }
