@@ -19,6 +19,9 @@ HRESULT MainGame::init(void)
 	_vTextOut.push_back("김현석 - 2주간 팀포폴 열심히 해봅시다!");
 	_vTextOut.push_back("민채영 - untile we die 게임 기대되네요!");
 	_vTextOut.push_back("임지혁 - 기대됩니다 불지옥 여행");
+	_vTextOut.push_back("박정호 - 앞으로의 계획에 대해서");
+	_vTextOut.push_back("박정호 - 상의를 좀 해보고");
+	_vTextOut.push_back("박정호 - 요번주안에 결정되면 좋겟내여");
 
 	return S_OK;
 }
