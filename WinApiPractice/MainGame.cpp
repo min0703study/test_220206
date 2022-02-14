@@ -28,6 +28,8 @@ HRESULT MainGame::init(void)
 	_vTextOut.push_back("민채영 - 게임 잘 고른거 같아요 너무 재밌어 보여요");
 	_vTextOut.push_back("민채영 - 애니메이션 처리가 고민이네요");
 	_vTextOut.push_back("민채영 - 스프라이트 리소스 보고 있으면 머리가 아파요");
+	_vTextOut.push_back("임지혁 - 프로그램이랑 코드 스타일 등 상의해서 잘 맞춰봐요");
+	_vTextOut.push_back("임지혁 - 팀 포폴은 꼭 계획만큼 완성했으면 좋겠습니다");
 
 	return S_OK;
 }
