@@ -16,6 +16,8 @@ HRESULT MainGame::init(void)
 	for (int i = 0; i < 20; i++) {
 		_vTextOut.push_back("민채영 - 첫번째 메세지");
 		_vTextOut.push_back("민채영 - 두번째 메세지");
+		_vTextOut.push_back("박정호 - 심심해여");
+		_vTextOut.push_back("박정호 - 잘래요");
 	}
 	
 	return S_OK;
