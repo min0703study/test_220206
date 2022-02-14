@@ -30,6 +30,8 @@ HRESULT MainGame::init(void)
 	_vTextOut.push_back("민채영 - 스프라이트 리소스 보고 있으면 머리가 아파요");
 	_vTextOut.push_back("임지혁 - 프로그램이랑 코드 스타일 등 상의해서 잘 맞춰봐요");
 	_vTextOut.push_back("임지혁 - 팀 포폴은 꼭 계획만큼 완성했으면 좋겠습니다");
+	_vTextOut.push_back("박정호 - 그래도 생각보다 쉽게 리소스를 구할 수 있던게");
+	_vTextOut.push_back("박정호 - 무엇보다도 다행이라고 생각하네여");
 
 	return S_OK;
 }
