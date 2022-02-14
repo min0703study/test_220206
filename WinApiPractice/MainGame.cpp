@@ -41,6 +41,9 @@ HRESULT MainGame::init(void)
 	_vTextOut.push_back("임지혁 - 이미지 작업이 제일 싫어요....");
 	_vTextOut.push_back("임지혁 - 얼른 코드 작업 들어갔으면 좋겠네요~");
 	_vTextOut.push_back("임지혁 - 우리팀 모두 2주간 열심히 해봐요!");
+	_vTextOut.push_back("박정호 - 우리 자주 만나서 얘기해요~");
+	_vTextOut.push_back("박정호 - 포트폴리오도 포트폴리오지만");
+	_vTextOut.push_back("박정호 - 다들 몸 관리도 잘 하셔야되요!!");
 
 	return S_OK;
 }
